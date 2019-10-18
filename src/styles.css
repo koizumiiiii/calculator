@@ -1,0 +1,57 @@
+body {
+  font-family: sans-serif;
+  background: #e8e8e8;
+}
+#app {
+  width: 250px;
+  margin: auto;
+  padding: 20px;
+  font-size: 20px;
+  text-align: center;
+  background: #fff;
+  color: #242424;
+  font-feature-settings: "palt";
+}
+.calc_num {
+  width: 70px;
+  height: 40px;
+  padding: 0 10px;
+  border: 0;
+  background: #eee;
+  border-radius: 0;
+  font-size: 20px;
+  vertical-align: middle;
+}
+#btn_calc {
+  border: 0;
+  padding: 10px;
+  height: 40px;
+  background: #8cdef5;
+  color: #fff;
+  width: 80px;
+  font-size: 16px;
+}
+.select_num1,
+.select_num2,
+.anser {
+  display: inline-block;
+  width: 50px;
+}
+.anser {
+  color: #ffa1a1;
+}
+.symbol {
+  display: inline-block;
+  vertical-align: middle;
+  width: 30px;
+  font-size: 14px;
+}
+#anser_area {
+  margin: 15px 0 0;
+}
+.formula {
+  padding: 8px;
+}
+.formula + .formula {
+  border-top: solid 1px #ccc;
+}
